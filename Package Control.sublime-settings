@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"HTML-CSS-JS Prettify",
+		"JSCS-Formatter",
+		"Package Control",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-jscs",
+		"SyncedSideBar",
+		"Theme - itg.flat"
+	]
+}

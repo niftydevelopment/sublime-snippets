@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+$httpBackend.when('GET', '/atlas/rest/kontrollforetag/a/b/faltarenden?role=&filter=')
+    .respond(function () {
+        return [200, mockedFaltarendeList, {ETag:'1_1_1'}];
+});
+]]></content>
+	<tabTrigger>mockhttp</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

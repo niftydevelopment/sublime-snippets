@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+
+(function(module) {
+  'use strict';
+
+  module.controller('${1:MyController}', [function() {
+  	var vm = this;
+
+  	vm.stuff = 'stuff';
+
+  	vm.doStuff = function() {
+  		return 'doStuff';
+  	}
+
+  }]);
+
+})(angular.module('${1:modulnamn}'));
+
+]]></content>
+	<tabTrigger>controller</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

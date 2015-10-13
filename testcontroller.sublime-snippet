@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+(function() {
+
+  'use strict';
+  
+  describe('Direktivet har följande controller. Controllern ', function() {
+
+    var ctrl, scope;
+
+    beforeEach(module('${1:modulnamn}'));
+
+    beforeEach(inject(function($controller, $rootScope) {
+      var scope = $rootScope.$new();
+      
+      ctrl = $controller('${1:MyController}', {
+        $scope : scope
+      });
+
+    }));
+
+    it('skall ha följande api:', function() {
+        expect(ctrl.doStuff).toBeDefined();
+        expect(ctrl.stuff).toBe('stuff');
+    });
+
+  });
+
+
+})();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>testcontroller</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

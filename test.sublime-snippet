@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+(function() {
+
+	describe('', function() {
+
+		beforeEach(module('common-infrastructure'));
+
+		beforeEach(inject(function(httpBackend) {
+
+		}));
+
+		it('', function() {
+			expect(true).toBe(true);
+		});
+
+	});
+
+})();
+]]></content>
+	<tabTrigger>test</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
