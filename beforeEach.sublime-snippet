@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+    beforeEach(function() {
+        module('${1:module}');
+
+        inject(function(_\$filter_) {
+            filter = _$filter_('unique');
+        });
+    });
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>before</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

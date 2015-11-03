@@ -2,24 +2,26 @@
 	"caret_extra_bottom": 3,
 	"caret_extra_top": 3,
 	"caret_extra_width": 2,
-	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"folder_exclude_patterns":
 	[
 		".svn",
 		"target-gui",
 		"target",
 		"node_modules",
-		"karma-coverage",
 		"bower_components",
+		"karma-coverage",
 		"dist",
-		"src",
 		"plato",
-		"assets"
+		"assets",
+		"coverage",
+		".tmp"
 	],
 	"font_size": 14,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"SyncedSideBar",
 		"Vintage"
 	],
 	"overlay_scroll_bars": "enabled",
